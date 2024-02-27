@@ -39,8 +39,8 @@ these values are always false, it's a rule;*/
 !!'false' == !!'true' // true; types are equal;
 
 0 || '0' && 1 /* 1; 
-0 || '0' is true;
-true is true, 1 is true; 
+0 || '0' is 0;
+0 is true, 1 is true; 
 If all values are truthy, the value of the last operand is returned.*/
 
 (+null == false) < 1; /* false;
