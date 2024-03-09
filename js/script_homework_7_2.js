@@ -1,6 +1,6 @@
 function PadEndOrPadStart (inputString, symbol, quantityOfSymbols, ToTheStart) {
     let symbolsToAdd = quantityOfSymbols - inputString.length;
-    if (symbolsToAdd < inputString.length){
+    if (symbolsToAdd < 0){
         console.log(inputString);
     }
     else if (ToTheStart == true){
