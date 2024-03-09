@@ -5,9 +5,9 @@ for ( let i = 0; i < count; i++ ) {
     let rnd = Math.round(Math.random() * 900 + 100);
     let rest = rnd % 2;
     if (rest === 0){
-            qEven += 1;
+            qEven++;
         } else {
-            qOdd += 1;
+            qOdd++;
             }
         }
 let evenPerc = qEven/count*100;
